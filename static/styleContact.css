@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lilita+One&family=Londrina+Solid:wght@900&display=swap');
+h1{ 
+    text-align: center;
+    margin: 30px 0px;
+    font-family: 'Londrina Solid', cursive;
+}
+.container{
+    min-height: 80vh;
+}
+.myclass{
+    text-align: center;
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 20px auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    outline: none;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    font-size: 20px
+}
+.btn{
+    display: block;
+    margin: auto;
+    width: 80%;
+    color: black;
+    background-color: rgb(88, 82, 82);
+    border-radius: 10px ;
+    border: 3px solid black;
+    padding: 5PX;
+    cursor: pointer;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bold;
+    font-size: 20px
+}
+.btn:hover{
+    background-color: rgb(65, 80, 80);
+}
+/* button{
+    color: black;
+} */

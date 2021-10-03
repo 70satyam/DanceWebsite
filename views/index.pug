@@ -1,0 +1,56 @@
+doctype html
+html
+  head
+    title Satyam Dance Academy
+    link(rel="stylesheet" href="/static/style.css")      
+    link(rel="stylesheet" href="/static/phone.css")      
+
+  body
+    nav#navbar.top
+      ul
+        li #[a(href="/") Home]  
+        li #[a(href="/") About us]  
+        li #[a(href="/") Class info]
+        li #[a(href="/") Services] 
+        li #[a(href="/") Contact us] 
+
+    section#introsection 
+        div   “The job of feets is walking, but their hobby is dancing.”
+        div   “Dance is the hidden language of the soul.”
+    section#missionsection 
+        h1 Our Mission
+        div.card
+          h3 Techneqies
+          div.card-box
+              div.card-img
+                img(src="/static/4.png", alt="")
+              div.card-content
+                p Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cumque ducimus cupiditate delectus voluptatum, eius ea officia consequuntur aperiam perferendis.    
+        div.card
+          h3 Strategies
+          div.card-box
+              div.card-img
+                img(src="/static/2.png", alt="")
+              div.card-content
+                p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente earum quaerat dolor numquam, sunt dolorem ullam ad fuga reprehenderit doloremque. 
+        div.card
+          h3 Loving
+          div.card-box
+              div.card-img
+                img(src="/static/3.png", alt="")
+              div.card-content
+                p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente earum quaerat dolor numquam, sunt dolorem ullam ad fuga reprehenderit doloremque.
+    section#aboutus 
+        h1 About us      
+        p A dance studio is a space in which dancers learn or rehearse. The term is typically used to describe a space that has either been built or equipped for the purpose. A dance studio normally includes a smooth floor covering or, if used for tap dancing, by a hardwood floor.Other common features of a dance studio include a barre, which can be either .      
+    section#sponsersection 
+        h1 Our Sponsers
+        div#sponsers
+          img(src="/static/s.png", alt="",Class='spimage')
+          img(src="/static/s2.png", alt="",Class='spimage')
+          img(src="/static/s3.png", alt="",Class='spimage')
+          img(src="/static/s4.jpg", alt="",Class='spimage')
+    footer#footer
+        |   copyright © 2021 SatyamDanceAcademy |All rights reserved    
+    script
+      include ../static/index.js
